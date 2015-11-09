@@ -17,7 +17,7 @@ public class Singleton1 {
 	 * 该方法存在线程安全问题，有可能返回多个实例
 	 * @return
 	 */
-	public static Singleton1 getSingleton() {
+	public static Singleton1 getInstance() {
 		if (singleton == null) {
 			singleton = new Singleton1();
 		}
